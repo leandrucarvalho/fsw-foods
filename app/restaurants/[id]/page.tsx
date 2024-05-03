@@ -50,8 +50,6 @@ const RestaurantPage = async ({ params: { id } }: RestaurantPageProps) => {
     },
   });
 
-  console.log(restaurant);
-
   if (!restaurant) {
     return notFound();
   }
