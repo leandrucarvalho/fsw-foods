@@ -68,7 +68,11 @@ export const CartProvider = ({ children }: { children: ReactNode }) => {
     return (
       products.reduce((acc, product) => {
         return acc + calculateProductTotalPrice(product) * product.quantity;
+<<<<<<< HEAD
       }, 0) + Number(products?.[0]?.restaurant?.deliveryFee)
+=======
+      }, 0) - Number(products?.[0]?.restaurant?.deliveryFee)
+>>>>>>> c2ea4476ee2ab630d3168a2462b02320a250c931
     );
   }, [products]);
 
