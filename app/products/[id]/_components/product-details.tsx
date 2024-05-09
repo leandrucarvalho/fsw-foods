@@ -52,6 +52,7 @@ const ProductDetails = ({
   const [isCartOpen, setIsCartOpen] = useState(false);
   const [isConfirmationDialogOpen, setIsConfirmationDialogOpen] =
     useState(false);
+
   const { addProductToCart, products } = useContext(CartContext);
 
   const addToCart = ({ emptyCart }: { emptyCart?: boolean }) => {
