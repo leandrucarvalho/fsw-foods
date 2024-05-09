@@ -25,6 +25,8 @@ import { Separator } from "./ui/separator";
 const Header = () => {
   const { data } = useSession();
 
+  console.log(data?.user?.image);
+
   const handleSingOutClick = () => signOut();
   const handleSingInClick = () => signIn();
 
@@ -60,7 +62,7 @@ const Header = () => {
               <div className="flex justify-between pt-6">
                 <div className="flex items-center gap-3">
                   <Avatar>
-                    <AvatarImage src={data.user?.image || undefined} />
+                    <AvatarImage src={data?.user?.image as string} />
                     <AvatarFallback>
                       {data?.user?.name?.split(" ")[0][0]}
                       {data?.user?.name?.split(" ")[1][0]}
