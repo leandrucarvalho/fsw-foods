@@ -25,8 +25,6 @@ import { Separator } from "./ui/separator";
 const Header = () => {
   const { data } = useSession();
 
-  console.log(data?.user?.image);
-
   const handleSingOutClick = () => signOut();
   const handleSingInClick = () => signIn();
 
