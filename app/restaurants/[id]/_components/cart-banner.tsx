@@ -45,7 +45,7 @@ const CartBanner = ({ restaurant }: CartBannerProps) => {
         </div>
         <div>
           <Sheet>
-            <SheetTrigger>
+            <SheetTrigger asChild>
               <Button>Ver sacola</Button>
             </SheetTrigger>
             <SheetContent className="w-[80vw]">
