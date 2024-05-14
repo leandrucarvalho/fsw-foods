@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# FSW Foods
 
-## Getting Started
+FSW Foods é um sistema de delivery de comida desenvolvido durante a quarta edição do Full Stack Week. Inspirado em plataformas renomadas como o iFood, o FSW Foods visa oferecer uma experiência de usuário excepcional, combinando tecnologias de ponta com requisitos funcionais e não funcionais meticulosamente planejados.
 
-First, run the development server:
+## Tecnologias Utilizadas
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- TypeScript
+- React.js
+- Next.js
+- Tailwind CSS
+- Shadcn/UI
+- Node.js
+- Prisma
+- PostgreSQL
+- Neon Serverless Postgres
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Funcionalidades Principais
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Requisitos Funcionais (RF):
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Seleção de itens do menu
+- Adição ao carrinho de compras
+- Edição do carrinho antes do checkout
+- Visualização do histórico de pedidos
+- Acompanhamento em tempo real do status do pedido
+- Gerenciamento de restaurantes favoritos
+- Navegação por categorias de alimentos
+- Pesquisa de restaurantes pelo nome
+- Login e logout com contas do Google
 
-## Learn More
+### Requisitos Não Funcionais (RNF):
 
-To learn more about Next.js, take a look at the following resources:
+- Escalabilidade para inúmeros usuários
+- Tempo de resposta rápido
+- Interface intuitiva e responsiva para dispositivos móveis
+- Capacidade de dimensionamento conforme a demanda aumenta
+- Compatibilidade com diversos dispositivos e sistemas operacionais móveis
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Estado Atual do Projeto
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Embora o suporte para diferentes tamanhos de tela ainda esteja em desenvolvimento, o projeto já está disponível no GitHub para visualização e contribuição.
+O deploy foi realizado na [Vercel](https://vercel.com/). e o sistema está em produção.
 
-## Deploy on Vercel
+## Como Contribuir
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Você pode contribuir para o projeto seguindo estas etapas:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Faça um fork do repositório
+2. Clone o fork para o seu ambiente local
+3. Crie uma nova branch para as suas alterações (`git checkout -b feature/sua-feature`)
+4. Faça commit das suas alterações (`git commit -am 'Adicionando sua feature'`)
+5. Faça push para a branch (`git push origin feature/sua-feature`)
+6. Crie um novo Pull Request
+
+## Acesso à Plataforma
+
+Para experimentar o projeto atual, basta acessar [FSW Foods]((https://fsw-foods-leandro-carvalho-dev.vercel.app/)).
