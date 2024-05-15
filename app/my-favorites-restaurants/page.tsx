@@ -11,6 +11,7 @@ const MyFavoritesRestaurantsPage = async () => {
   if (!session) {
     return notFound();
   }
+
   const userFavoriteRestaurants = await db.userFavoriteRestaurant.findMany({
     where: {
       userId: session.user.id,
@@ -19,6 +20,7 @@ const MyFavoritesRestaurantsPage = async () => {
       restaurant: true,
     },
   });
+
   return (
     <>
       <Header />
