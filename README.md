@@ -41,7 +41,6 @@ FSW Foods é um sistema de delivery de comida desenvolvido durante a quarta edi�
 Embora o suporte para diferentes tamanhos de tela ainda esteja em desenvolvimento, o projeto já está disponível no GitHub para visualização e contribuição.
 O deploy foi realizado na [Vercel](https://vercel.com/). E o sistema está em produção.
 
-Você pode verificar por este link: [FSW Foods](https://fsw-foods-leandro-carvalho-dev.vercel.app/)
 
 ## Como Contribuir
 
@@ -54,6 +53,6 @@ Você pode contribuir para o projeto seguindo estas etapas:
 5. Faça push para a branch (`git push origin feature/sua-feature`)
 6. Crie um novo Pull Request
 
-## Acesso à Plataforma
+## Acesso ao Projeto
 
-Para experimentar o projeto atual, basta acessar [FSW Foods]((https://fsw-foods-leandro-carvalho-dev.vercel.app/)).
+Para experimentar o projeto atual, basta acessar [FSW Foods](https://fsw-foods-leandro-carvalho-dev.vercel.app/).
