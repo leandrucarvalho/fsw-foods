@@ -141,7 +141,9 @@ const ProductDetails = ({
 
         {/* {DADOS DA ENTREGA} */}
         <div className="px-5">
-          <DeliveryInfo restaurant={product.restaurant} />
+          <DeliveryInfo
+            restaurant={JSON.parse(JSON.stringify(product.restaurant))}
+          />
         </div>
 
         <div className="mt-6 space-y-3 px-5">
@@ -151,7 +153,9 @@ const ProductDetails = ({
 
         <div className="mt-6 space-y-3">
           <h3 className="px-5 font-semibold">Sucos</h3>
-          <ProductList products={complementaryProducts} />
+          <ProductList
+            products={JSON.parse(JSON.stringify(complementaryProducts))}
+          />
         </div>
         <div className="mt-6 items-center px-5">
           <Button

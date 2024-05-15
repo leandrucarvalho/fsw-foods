@@ -26,7 +26,7 @@ const RecommendedRestaurants = async () => {
           {restaurants.map((restaurant) => (
             <RestaurantItem
               key={restaurant.id}
-              restaurant={restaurant}
+              restaurant={JSON.parse(JSON.stringify(restaurant))}
               className="min-w-full max-w-full"
               userFavoritesRestaurants={userFavoriteRestaurants}
             />
